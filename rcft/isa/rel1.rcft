@@ -1,0 +1,73 @@
+FormalContext context1
+|   |
+|Body Weight decreased|
+|Chromosome abnormality|
+|Hodgkin Disease|
+|Acute Megakaryocytic Leukemias|
+|Primary Myelofibrosis|
+|Asthenia|
+|Elderly|
+|Paternal|
+|laminin P1|
+|Danazol|
+|VP-16|
+|Fatigue|
+|Bone marrow trephine|
+|Acute panmyelosis with myelofibrosis|
+|Acute leukemia|
+|Platelet-Derived Growth Factor|
+|Myelofibrosis|
+|Fibrosis|
+|Bone marrow biopsy|
+|Anorexia|
+
+FormalContext context2
+|   |name :Anabolic steroids|name :Persons|name :Syndrome|name :Malignant Neoplasms|name :Growth Factor|name :bone marrow suppression|name :Myelofibrosis|name :Hematological Disease|name :Biopsy|name :Disease|name :Etoposide|name :Symptoms|name :Antigens|name :Neoplasm|name :Myeloproliferative disease|name :Diagnosis|name :Acute leukemia|name :Beginning|name :Fibrosis|name :Dysmyelopoietic Syndromes|name :Hematologic Neoplasms|
+|Anabolic steroids|x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Persons|   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Syndrome|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Malignant Neoplasms|   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Growth Factor|   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|bone marrow suppression|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Myelofibrosis|   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Hematological Disease|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Biopsy|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Disease|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+|Etoposide|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |
+|Symptoms|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+|Antigens|   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |
+|Neoplasm|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |
+|Myeloproliferative disease|   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Diagnosis|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |
+|Acute leukemia|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |
+|Beginning|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |
+|Fibrosis|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Dysmyelopoietic Syndromes|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Hematologic Neoplasms|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|
+
+RelationalContext ISA
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Anabolic steroids|Persons|Syndrome|Malignant Neoplasms|Growth Factor|bone marrow suppression|Myelofibrosis|Hematological Disease|Biopsy|Disease|Etoposide|Symptoms|Antigens|Neoplasm|Myeloproliferative disease|Diagnosis|Acute leukemia|Beginning|Fibrosis|Dysmyelopoietic Syndromes|Hematologic Neoplasms|
+|Body Weight decreased|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+|Chromosome abnormality|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+|Hodgkin Disease|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |
+|Acute Megakaryocytic Leukemias|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |
+|Primary Myelofibrosis|   |   |   |   |   |   |x|   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+|Asthenia|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+|Elderly|   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Paternal|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |
+|laminin P1|   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |
+|Danazol|x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|VP-16|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |
+|Fatigue|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+|Bone marrow trephine|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Acute panmyelosis with myelofibrosis|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Acute leukemia|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+|Platelet-Derived Growth Factor|   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Myelofibrosis|   |   |x|x|   |x|   |x|   |x|   |   |   |   |x|   |   |   |x|x|x|
+|Fibrosis|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+|Bone marrow biopsy|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |
+|Anorexia|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+

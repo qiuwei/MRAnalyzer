@@ -1,0 +1,119 @@
+FormalContext context1
+|   |
+|Transforming Growth Factor beta|
+|Acute Megakaryocytic Leukemias|
+|Laminin|
+|Venoocclusive disease|
+|[X]Other preterm infants|
+|Medical Imaging|
+|Transferase|
+|Neoplasm|
+|Diffuse fibrosis|
+|Peroxidase|
+|Fibrosis|
+|Myeloid Metaplasia|
+|Malignant Neoplasms|
+|Genes|
+|Cyclophosphamide|
+|Bone marrow biopsy|
+|Monoclonal Antibodies|
+|Autopsy|
+|Hyperplasia|
+|Hematologic Neoplasms|
+|Cytopenia|
+|Surgical biopsy|
+|Disease|
+|Compartments|
+|13q|
+|leukemia|
+|Platelet-Derived Growth Factor|
+|Puncture wound|
+|Type III Procollagen|
+|Collagen|
+|3q26|
+|Trisomy|
+|Reticulin|
+|Infiltration|
+|Hemorrhage|
+|Myelofibrosis|
+
+FormalContext context2
+|   |name :Chromosomes, Human, Pair 9|name :Entire iliac crest|name :Left tibia|name :monoblast|name :Megakaryoblast|name :Erythrocyte (RBC) (MMHCC)|name :myeloblast|name :Bone Marrow|name :Clone|name :Burst-Forming Units, Erythroid|name :Liver|name :Marrow|name :Hematopoietic stem cells|name :Blood|name :Pluripotent Stem Cells|name :Sister|name :Spleen|name :Colony-forming unit, granulocyte-erythroid-macrophage-megakaryocyte|name :Myeloid Cells|name :Cells|name :Cell Line|name :Fibroblasts|name :Patients|name :Myeloid Progenitor Cells|name :Stem cells|name :Perinuclear cisterna|name :Blast Cell|name :Chromosomes|name :Medullary|name :Bone Marrow Cells|name :lymph nodes|name :Gingiva|name :Connective Tissue - Fibroblasts (MMHCC)|name :Alpha Granule|name :Megakaryocytes|
+|Chromosomes, Human, Pair 9|x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Entire iliac crest|   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Left tibia|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|monoblast|   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Megakaryoblast|   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Erythrocyte (RBC) (MMHCC)|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|myeloblast|   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Bone Marrow|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Clone|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Burst-Forming Units, Erythroid|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Liver|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Marrow|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Hematopoietic stem cells|   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Blood|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Pluripotent Stem Cells|   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Sister|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Spleen|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Colony-forming unit, granulocyte-erythroid-macrophage-megakaryocyte|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Myeloid Cells|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Cells|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Cell Line|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Fibroblasts|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Patients|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Myeloid Progenitor Cells|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+|Stem cells|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |
+|Perinuclear cisterna|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+|Blast Cell|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |
+|Chromosomes|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |
+|Medullary|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Bone Marrow Cells|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |
+|lymph nodes|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |
+|Gingiva|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |
+|Connective Tissue - Fibroblasts (MMHCC)|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Alpha Granule|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Megakaryocytes|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|
+
+RelationalContext LOCATION_OF
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Chromosomes, Human, Pair 9|Entire iliac crest|Left tibia|monoblast|Megakaryoblast|Erythrocyte (RBC) (MMHCC)|myeloblast|Bone Marrow|Clone|Burst-Forming Units, Erythroid|Liver|Marrow|Hematopoietic stem cells|Blood|Pluripotent Stem Cells|Sister|Spleen|Colony-forming unit, granulocyte-erythroid-macrophage-megakaryocyte|Myeloid Cells|Cells|Cell Line|Fibroblasts|Patients|Myeloid Progenitor Cells|Stem cells|Perinuclear cisterna|Blast Cell|Chromosomes|Medullary|Bone Marrow Cells|lymph nodes|Gingiva|Connective Tissue - Fibroblasts (MMHCC)|Alpha Granule|Megakaryocytes|
+|Transforming Growth Factor beta|   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Acute Megakaryocytic Leukemias|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |
+|Laminin|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Venoocclusive disease|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|[X]Other preterm infants|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Medical Imaging|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Transferase|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Neoplasm|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Diffuse fibrosis|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Peroxidase|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+|Fibrosis|   |   |   |   |   |   |   |x|   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Myeloid Metaplasia|   |   |   |   |   |   |   |x|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |
+|Malignant Neoplasms|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Genes|x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Cyclophosphamide|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Bone marrow biopsy|   |x|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Monoclonal Antibodies|   |   |   |x|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Autopsy|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |x|
+|Hyperplasia|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Hematologic Neoplasms|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Cytopenia|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Surgical biopsy|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Disease|   |   |   |   |   |   |   |   |x|   |   |   |x|   |   |   |   |   |   |   |   |   |   |x|x|   |x|   |   |   |   |   |   |   |   |
+|Compartments|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|13q|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|leukemia|   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Platelet-Derived Growth Factor|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Puncture wound|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Type III Procollagen|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Collagen|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |x|   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |
+|3q26|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Trisomy|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |
+|Reticulin|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Infiltration|   |   |   |   |   |   |   |x|   |   |x|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |
+|Hemorrhage|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |
+|Myelofibrosis|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |
+

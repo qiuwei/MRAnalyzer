@@ -1,0 +1,15 @@
+FormalContext context1
+|   |
+|cytokine|
+
+FormalContext context2
+|   |name :Myelofibrosis|
+|Myelofibrosis|x|
+
+RelationalContext PRODUCES
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Myelofibrosis|
+|cytokine|x|
+

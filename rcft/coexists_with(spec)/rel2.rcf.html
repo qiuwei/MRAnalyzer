@@ -1,0 +1,86 @@
+<html><head><title>Relational Context Family</title><style type="text/css">body { background-color: white; color: black; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:small; }table { border: medium solid black; border-collapse: collapse; empty-cells:show; }td, th { border: thin solid black; font-size:small; text-align: center; padding: 5px;}</style></head><body>
+<p><b>context1</b> (formal context)</p>
+<table><tr><td></td>
+</tr>
+<tr><td>Chromosome abnormality</td>
+</tr>
+<tr><td>Acute panmyelosis with myelofibrosis</td>
+</tr>
+<tr><td>Myelofibrosis</td>
+</tr>
+</table>
+<p><b>context2</b> (formal context)</p>
+<table><tr><td></td>
+<td>name :Pancytopenia</td>
+<td>name :Chromosome abnormality</td>
+<td>name :Myelofibrosis</td>
+<td>name :Fibrosis</td>
+<td>name :myeloblastosis</td>
+</tr>
+<tr><td>Pancytopenia</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr><td>Chromosome abnormality</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr><td>Myelofibrosis</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td>Fibrosis</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr><td>myeloblastosis</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+</table>
+<p><b>COEXISTS_WITH(SPEC)</b> (relational context)</p>
+<table><tr><td></td>
+<td>Pancytopenia</td>
+<td>Chromosome abnormality</td>
+<td>Myelofibrosis</td>
+<td>Fibrosis</td>
+<td>myeloblastosis</td>
+</tr>
+<tr><td>Chromosome abnormality</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr><td>Acute panmyelosis with myelofibrosis</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr><td>Myelofibrosis</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+</table>
+</body></html>

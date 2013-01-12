@@ -1,0 +1,31 @@
+FormalContext context1
+|   |
+|Sudan Black B|
+|Prednisone|
+|Cytarabine|
+|Vincristine|
+|Technetium Tc 99m Medronate|
+|Support, device|
+|Lights, manufactured|
+
+FormalContext context2
+|   |name :Patients|name :Staining method|name :Combination Drug Therapy|name :Microscopy|name :Radioisotope scan of bone|
+|Patients|x|   |   |   |   |
+|Staining method|   |x|   |   |   |
+|Combination Drug Therapy|   |   |x|   |   |
+|Microscopy|   |   |   |x|   |
+|Radioisotope scan of bone|   |   |   |   |x|
+
+RelationalContext USES
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Patients|Staining method|Combination Drug Therapy|Microscopy|Radioisotope scan of bone|
+|Sudan Black B|   |x|   |   |   |
+|Prednisone|   |   |x|   |   |
+|Cytarabine|   |   |x|   |   |
+|Vincristine|   |   |x|   |   |
+|Technetium Tc 99m Medronate|   |   |   |   |x|
+|Support, device|x|   |   |   |   |
+|Lights, manufactured|   |   |   |x|   |
+

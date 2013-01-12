@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="ASSOCIATED_WITH" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.3" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.3"/>
+    <relation target="//@formalContexts.1/@entities.4" source="//@formalContexts.0/@entities.3"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Primary Myelofibrosis"/>
+    <entities name="Myelofibrosis"/>
+    <entities name="Disease"/>
+    <entities name="Acute Megakaryocytic Leukemias"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <relation target="//@formalContexts.1/@attributes.3" source="//@formalContexts.1/@entities.3"/>
+    <relation target="//@formalContexts.1/@attributes.4" source="//@formalContexts.1/@entities.4"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :laminin P1"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Splenomegaly"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Transforming Growth Factor beta"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :procollagen Type III-N-terminal peptide"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :21q"/>
+    <entities name="laminin P1"/>
+    <entities name="Splenomegaly"/>
+    <entities name="Transforming Growth Factor beta"/>
+    <entities name="procollagen Type III-N-terminal peptide"/>
+    <entities name="21q"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="ASCII"?>
+<clf:ConceptLatticeFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:clf="http://code.google.com/erca/erca.ecore/1.5.0#//clf" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" stepNumber="2">
+  <conceptLattices name="context1" top="//@conceptLattices.0/@concepts.0">
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.0" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.1" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.3" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.4" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.5" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.6" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.7" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.8" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.9" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.10" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.11" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.12" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.13" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.14" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.15" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.16" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.17" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.18" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.19" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.20" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.21" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.22" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.23" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.24" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.25" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.26" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.27" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.28" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.29" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.30" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.31" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <attributes xsi:type="erca:RelationalAttribute" name="PART_OF" value="//@conceptLattices.1/@concepts.32" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <concepts name="Concept_0" children="//@conceptLattices.0/@concepts.3 //@conceptLattices.0/@concepts.5 //@conceptLattices.0/@concepts.7 //@conceptLattices.0/@concepts.8 //@conceptLattices.0/@concepts.10 //@conceptLattices.0/@concepts.11 //@conceptLattices.0/@concepts.13 //@conceptLattices.0/@concepts.14 //@conceptLattices.0/@concepts.15 //@conceptLattices.0/@concepts.16 //@conceptLattices.0/@concepts.17" intent="//@conceptLattices.0/@attributes.0">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.0"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.1"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.2"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.3"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.4"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.5"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.6"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.7"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.8"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.9"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.10"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.11"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.12"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.13"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.14"/>
+    </concepts>
+    <concepts name="Concept_34" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.1 //@conceptLattices.0/@attributes.4 //@conceptLattices.0/@attributes.8 //@conceptLattices.0/@attributes.15 //@conceptLattices.0/@attributes.17 //@conceptLattices.0/@attributes.18 //@conceptLattices.0/@attributes.19 //@conceptLattices.0/@attributes.22 //@conceptLattices.0/@attributes.27 //@conceptLattices.0/@attributes.28 //@conceptLattices.0/@attributes.29" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.8"/>
+    </concepts>
+    <concepts name="Concept_35" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.1 //@conceptLattices.0/@attributes.2 //@conceptLattices.0/@attributes.3 //@conceptLattices.0/@attributes.4 //@conceptLattices.0/@attributes.5 //@conceptLattices.0/@attributes.6 //@conceptLattices.0/@attributes.7 //@conceptLattices.0/@attributes.8 //@conceptLattices.0/@attributes.9 //@conceptLattices.0/@attributes.10 //@conceptLattices.0/@attributes.11 //@conceptLattices.0/@attributes.12 //@conceptLattices.0/@attributes.13 //@conceptLattices.0/@attributes.14 //@conceptLattices.0/@attributes.15 //@conceptLattices.0/@attributes.16 //@conceptLattices.0/@attributes.17 //@conceptLattices.0/@attributes.18 //@conceptLattices.0/@attributes.19 //@conceptLattices.0/@attributes.20 //@conceptLattices.0/@attributes.21 //@conceptLattices.0/@attributes.22 //@conceptLattices.0/@attributes.23 //@conceptLattices.0/@attributes.24 //@conceptLattices.0/@attributes.25 //@conceptLattices.0/@attributes.26 //@conceptLattices.0/@attributes.27 //@conceptLattices.0/@attributes.28 //@conceptLattices.0/@attributes.29 //@conceptLattices.0/@attributes.30 //@conceptLattices.0/@attributes.31" creationStep="1"/>
+    <concepts name="Concept_36" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.2 //@conceptLattices.0/@attributes.5 //@conceptLattices.0/@attributes.10" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.2"/>
+    </concepts>
+    <concepts name="Concept_37" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.3 //@conceptLattices.0/@attributes.16 //@conceptLattices.0/@attributes.31" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.3"/>
+    </concepts>
+    <concepts name="Concept_38" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.6" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.5"/>
+    </concepts>
+    <concepts name="Concept_39" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.7 //@conceptLattices.0/@attributes.8 //@conceptLattices.0/@attributes.12 //@conceptLattices.0/@attributes.14" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.13"/>
+    </concepts>
+    <concepts name="Concept_40" children="//@conceptLattices.0/@concepts.1 //@conceptLattices.0/@concepts.6" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.8" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.7"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.8"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.13"/>
+    </concepts>
+    <concepts name="Concept_41" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.9" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.11"/>
+    </concepts>
+    <concepts name="Concept_42" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.11 //@conceptLattices.0/@attributes.22" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.14"/>
+    </concepts>
+    <concepts name="Concept_43" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.13" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.9"/>
+    </concepts>
+    <concepts name="Concept_44" children="//@conceptLattices.0/@concepts.4" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.16" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.3"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.12"/>
+    </concepts>
+    <concepts name="Concept_45" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.20 //@conceptLattices.0/@attributes.22 //@conceptLattices.0/@attributes.26" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.4"/>
+    </concepts>
+    <concepts name="Concept_46" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.21" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.6"/>
+    </concepts>
+    <concepts name="Concept_47" children="//@conceptLattices.0/@concepts.1 //@conceptLattices.0/@concepts.9 //@conceptLattices.0/@concepts.12" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.22" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.4"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.8"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.14"/>
+    </concepts>
+    <concepts name="Concept_48" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.23 //@conceptLattices.0/@attributes.25" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.0"/>
+    </concepts>
+    <concepts name="Concept_49" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.24" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.10"/>
+    </concepts>
+    <concepts name="Concept_50" children="//@conceptLattices.0/@concepts.2" intent="//@conceptLattices.0/@attributes.0 //@conceptLattices.0/@attributes.30" creationStep="1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.0/@entities.1"/>
+    </concepts>
+  </conceptLattices>
+  <conceptLattices name="context2" top="//@conceptLattices.1/@concepts.0">
+    <concepts name="Concept_1" children="//@conceptLattices.1/@concepts.1 //@conceptLattices.1/@concepts.3 //@conceptLattices.1/@concepts.4 //@conceptLattices.1/@concepts.5 //@conceptLattices.1/@concepts.6 //@conceptLattices.1/@concepts.7 //@conceptLattices.1/@concepts.8 //@conceptLattices.1/@concepts.9 //@conceptLattices.1/@concepts.10 //@conceptLattices.1/@concepts.11 //@conceptLattices.1/@concepts.12 //@conceptLattices.1/@concepts.13 //@conceptLattices.1/@concepts.14 //@conceptLattices.1/@concepts.15 //@conceptLattices.1/@concepts.16 //@conceptLattices.1/@concepts.17 //@conceptLattices.1/@concepts.18 //@conceptLattices.1/@concepts.19 //@conceptLattices.1/@concepts.20 //@conceptLattices.1/@concepts.21 //@conceptLattices.1/@concepts.22 //@conceptLattices.1/@concepts.23 //@conceptLattices.1/@concepts.24 //@conceptLattices.1/@concepts.25 //@conceptLattices.1/@concepts.26 //@conceptLattices.1/@concepts.27 //@conceptLattices.1/@concepts.28 //@conceptLattices.1/@concepts.29 //@conceptLattices.1/@concepts.30 //@conceptLattices.1/@concepts.31 //@conceptLattices.1/@concepts.32">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.0"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.1"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.2"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.3"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.4"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.5"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.6"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.7"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.8"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.9"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.10"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.11"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.12"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.13"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.14"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.15"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.16"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.17"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.18"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.19"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.20"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.21"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.22"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.23"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.24"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.25"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.26"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.27"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.28"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.29"/>
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.30"/>
+    </concepts>
+    <concepts name="Concept_2" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.0"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.0"/>
+    </concepts>
+    <concepts name="Concept_3">
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.0"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.1"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.2"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.3"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.4"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.5"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.6"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.7"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.8"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.9"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.10"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.11"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.12"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.13"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.14"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.15"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.16"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.17"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.18"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.19"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.20"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.21"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.22"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.23"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.24"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.25"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.26"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.27"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.28"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.29"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.30"/>
+    </concepts>
+    <concepts name="Concept_4" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.1"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.1"/>
+    </concepts>
+    <concepts name="Concept_5" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.2"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.2"/>
+    </concepts>
+    <concepts name="Concept_6" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.3"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.3"/>
+    </concepts>
+    <concepts name="Concept_7" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.4"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.4"/>
+    </concepts>
+    <concepts name="Concept_8" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.5"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.5"/>
+    </concepts>
+    <concepts name="Concept_9" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.6"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.6"/>
+    </concepts>
+    <concepts name="Concept_10" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.7"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.7"/>
+    </concepts>
+    <concepts name="Concept_11" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.8"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.8"/>
+    </concepts>
+    <concepts name="Concept_12" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.9"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.9"/>
+    </concepts>
+    <concepts name="Concept_13" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.10"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.10"/>
+    </concepts>
+    <concepts name="Concept_14" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.11"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.11"/>
+    </concepts>
+    <concepts name="Concept_15" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.12"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.12"/>
+    </concepts>
+    <concepts name="Concept_16" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.13"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.13"/>
+    </concepts>
+    <concepts name="Concept_17" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.14"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.14"/>
+    </concepts>
+    <concepts name="Concept_18" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.15"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.15"/>
+    </concepts>
+    <concepts name="Concept_19" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.16"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.16"/>
+    </concepts>
+    <concepts name="Concept_20" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.17"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.17"/>
+    </concepts>
+    <concepts name="Concept_21" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.18"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.18"/>
+    </concepts>
+    <concepts name="Concept_22" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.19"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.19"/>
+    </concepts>
+    <concepts name="Concept_23" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.20"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.20"/>
+    </concepts>
+    <concepts name="Concept_24" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.21"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.21"/>
+    </concepts>
+    <concepts name="Concept_25" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.22"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.22"/>
+    </concepts>
+    <concepts name="Concept_26" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.23"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.23"/>
+    </concepts>
+    <concepts name="Concept_27" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.24"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.24"/>
+    </concepts>
+    <concepts name="Concept_28" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.25"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.25"/>
+    </concepts>
+    <concepts name="Concept_29" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.26"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.26"/>
+    </concepts>
+    <concepts name="Concept_30" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.27"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.27"/>
+    </concepts>
+    <concepts name="Concept_31" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.28"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.28"/>
+    </concepts>
+    <concepts name="Concept_32" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.29"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.29"/>
+    </concepts>
+    <concepts name="Concept_33" children="//@conceptLattices.1/@concepts.2">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@entities.30"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/part_of/rel2.rcf.xmi#//@formalContexts.1/@attributes.30"/>
+    </concepts>
+  </conceptLattices>
+</clf:ConceptLatticeFamily>

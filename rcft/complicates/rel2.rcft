@@ -1,0 +1,15 @@
+FormalContext context1
+|   |
+|Esophageal carcinoma|
+
+FormalContext context2
+|   |name :Myelofibrosis|
+|Myelofibrosis|x|
+
+RelationalContext COMPLICATES
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Myelofibrosis|
+|Esophageal carcinoma|x|
+

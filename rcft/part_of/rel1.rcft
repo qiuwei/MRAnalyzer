@@ -1,0 +1,89 @@
+FormalContext context1
+|   |
+||
+|Antibodies, Anti-Idiotypic|
+|Acute Megakaryocytic Leukemias|
+|Monoclonal Antibodies|
+|Platelet-specific antibody|
+|Chromosomes, Human, Pair 2|
+|Interferon Alfa-2a|
+|Peroxidase|
+|Alkaline Phosphatase|
+|Immune Sera|
+|Megakaryocytes|
+|Muramidase|
+|Blood|
+|Marrow|
+|Leukemic Cell|
+|Granulocytic Sarcoma|
+|Anabolic steroids|
+|Spleen|
+|Interferon Type II|
+|Fibroblasts|
+|Perinuclear cisterna|
+|Blast Cell|
+|fibroblast cell line|
+|Myeloid cell containing Auer rod(s)|
+|Type III Procollagen|
+|Collagen|
+|Erythrocytes|
+|BCR protein, human|
+|DHPS gene|
+|Skin nodule|
+|Myelofibrosis|
+
+FormalContext context2
+|   |name :Homo sapiens|name :Woman|name :Megakaryoblast|name :Mandible|name :Bone Marrow|name :Clone|name :Endoplasmic Reticulum|name :Blood Platelets|name :Patients|name :Individual|name :Blast Cell|name :Leukocyte - Myelocyte (Granulocyte) (MMHCC)|name :Ovary|name :Myelofibrosis|name :Biopsy sample|
+|Homo sapiens|x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Woman|   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Megakaryoblast|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Mandible|   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+|Bone Marrow|   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |
+|Clone|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+|Endoplasmic Reticulum|   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |
+|Blood Platelets|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |
+|Patients|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Individual|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |
+|Blast Cell|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |
+|Leukocyte - Myelocyte (Granulocyte) (MMHCC)|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |
+|Ovary|   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Myelofibrosis|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Biopsy sample|   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|
+
+RelationalContext PART_OF
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Homo sapiens|Woman|Megakaryoblast|Mandible|Bone Marrow|Clone|Endoplasmic Reticulum|Blood Platelets|Patients|Individual|Blast Cell|Leukocyte - Myelocyte (Granulocyte) (MMHCC)|Ovary|Myelofibrosis|Biopsy sample|
+||   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Antibodies, Anti-Idiotypic|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Acute Megakaryocytic Leukemias|   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+|Monoclonal Antibodies|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Platelet-specific antibody|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Chromosomes, Human, Pair 2|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+|Interferon Alfa-2a|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Peroxidase|   |   |   |   |   |   |   |x|x|   |   |   |   |x|   |
+|Alkaline Phosphatase|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |
+|Immune Sera|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Megakaryocytes|   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|
+|Muramidase|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Blood|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |
+|Marrow|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Leukemic Cell|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Granulocytic Sarcoma|   |   |   |x|   |   |   |   |   |   |   |   |x|   |   |
+|Anabolic steroids|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Spleen|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Interferon Type II|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Fibroblasts|   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |
+|Perinuclear cisterna|   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |
+|Blast Cell|   |   |   |   |x|   |   |   |x|   |   |   |   |   |x|
+|fibroblast cell line|x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Myeloid cell containing Auer rod(s)|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |
+|Type III Procollagen|x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Collagen|   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |
+|Erythrocytes|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|BCR protein, human|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|DHPS gene|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Skin nodule|   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Myelofibrosis|   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+

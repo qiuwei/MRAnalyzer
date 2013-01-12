@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="TREATS(INFER)" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.1"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Aggressive Non-Hodgkin's Lymphoma"/>
+    <entities name="leukemia"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Cyclophosphamide"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Allografting"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Combination Chemotherapy"/>
+    <entities name="Cyclophosphamide"/>
+    <entities name="Allografting"/>
+    <entities name="Combination Chemotherapy"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

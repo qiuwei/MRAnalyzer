@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="ADMINISTERED_TO" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.3" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.4" source="//@formalContexts.0/@entities.0"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Patients"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <relation target="//@formalContexts.1/@attributes.3" source="//@formalContexts.1/@entities.3"/>
+    <relation target="//@formalContexts.1/@attributes.4" source="//@formalContexts.1/@entities.4"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Monoclonal Antibodies"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Autocrine Motility Factor"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Splenectomy"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Operative Surgical Procedures"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Cytotoxic agent"/>
+    <entities name="Monoclonal Antibodies"/>
+    <entities name="Autocrine Motility Factor"/>
+    <entities name="Splenectomy"/>
+    <entities name="Operative Surgical Procedures"/>
+    <entities name="Cytotoxic agent"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

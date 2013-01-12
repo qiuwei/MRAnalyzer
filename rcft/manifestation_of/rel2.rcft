@@ -1,0 +1,15 @@
+FormalContext context1
+|   |
+|Leukemia, Large Granular Lymphocytic|
+
+FormalContext context2
+|   |name :Myelofibrosis|
+|Myelofibrosis|x|
+
+RelationalContext MANIFESTATION_OF
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Myelofibrosis|
+|Leukemia, Large Granular Lymphocytic|x|
+

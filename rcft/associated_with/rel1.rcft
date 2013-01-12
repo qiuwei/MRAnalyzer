@@ -1,0 +1,26 @@
+FormalContext context1
+|   |
+|laminin P1|
+|Splenomegaly|
+|Transforming Growth Factor beta|
+|procollagen Type III-N-terminal peptide|
+|21q|
+
+FormalContext context2
+|   |name :Primary Myelofibrosis|name :Myelofibrosis|name :Disease|name :Acute Megakaryocytic Leukemias|
+|Primary Myelofibrosis|x|   |   |   |
+|Myelofibrosis|   |x|   |   |
+|Disease|   |   |x|   |
+|Acute Megakaryocytic Leukemias|   |   |   |x|
+
+RelationalContext ASSOCIATED_WITH
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Primary Myelofibrosis|Myelofibrosis|Disease|Acute Megakaryocytic Leukemias|
+|laminin P1|x|   |x|   |
+|Splenomegaly|   |   |x|   |
+|Transforming Growth Factor beta|   |x|   |x|
+|procollagen Type III-N-terminal peptide|x|   |   |   |
+|21q|   |   |   |x|
+

@@ -1,0 +1,67 @@
+FormalContext context1
+|   |
+|Daunorubicin|
+|Splenectomy|
+|Allogeneic bone marrow transplantation|
+|Nephrectomy|
+|Whole-Body Irradiation|
+|Alkylating Agents|
+|Prednisone|
+|Bands|
+|Cytotoxic agent|
+|Combination Chemotherapy|
+|hydroxyurea|
+|Pharmaceutical Preparations|
+|Radiation therapy|
+|Allografting|
+|Combination Drug Therapy|
+|Vincristine|
+|Medical therapy|
+|Cytarabine|
+|lenalidomide|
+|Cyclophosphamide|
+|Thioguanine|
+|Methotrexate|
+
+FormalContext context2
+|   |name :advanced disease|name :Malignant Neoplasms|name :Myeloid Leukemia, Chronic|name :Diarrhea|name :Disease|name :Patients|name :Fatal Outcome|name :Adult|name :thrombocytosis|name :Chronic Lymphocytic Leukemia|name :Myelofibrosis|
+|advanced disease|x|   |   |   |   |   |   |   |   |   |   |
+|Malignant Neoplasms|   |x|   |   |   |   |   |   |   |   |   |
+|Myeloid Leukemia, Chronic|   |   |x|   |   |   |   |   |   |   |   |
+|Diarrhea|   |   |   |x|   |   |   |   |   |   |   |
+|Disease|   |   |   |   |x|   |   |   |   |   |   |
+|Patients|   |   |   |   |   |x|   |   |   |   |   |
+|Fatal Outcome|   |   |   |   |   |   |x|   |   |   |   |
+|Adult|   |   |   |   |   |   |   |x|   |   |   |
+|thrombocytosis|   |   |   |   |   |   |   |   |x|   |   |
+|Chronic Lymphocytic Leukemia|   |   |   |   |   |   |   |   |   |x|   |
+|Myelofibrosis|   |   |   |   |   |   |   |   |   |   |x|
+
+RelationalContext TREATS
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |advanced disease|Malignant Neoplasms|Myeloid Leukemia, Chronic|Diarrhea|Disease|Patients|Fatal Outcome|Adult|thrombocytosis|Chronic Lymphocytic Leukemia|Myelofibrosis|
+|Daunorubicin|   |   |   |   |   |x|   |   |   |   |   |
+|Splenectomy|x|   |x|   |   |   |   |   |   |   |   |
+|Allogeneic bone marrow transplantation|   |   |   |   |   |   |   |   |   |   |x|
+|Nephrectomy|   |   |   |   |   |x|   |   |   |   |   |
+|Whole-Body Irradiation|   |   |   |   |   |   |   |   |   |x|   |
+|Alkylating Agents|   |   |   |   |   |   |   |   |   |x|   |
+|Prednisone|   |   |   |   |   |x|   |   |   |   |   |
+|Bands|   |   |   |   |x|   |   |   |   |   |   |
+|Cytotoxic agent|   |   |   |   |   |x|   |   |   |   |   |
+|Combination Chemotherapy|   |   |   |   |   |x|   |   |   |   |   |
+|hydroxyurea|   |   |   |   |   |   |   |   |x|   |   |
+|Pharmaceutical Preparations|   |   |   |   |   |   |x|   |   |   |   |
+|Radiation therapy|   |x|   |   |   |   |   |   |   |   |   |
+|Allografting|   |   |   |   |   |   |   |x|   |   |   |
+|Combination Drug Therapy|   |   |   |   |   |x|   |   |   |   |x|
+|Vincristine|   |   |   |   |   |x|   |   |   |   |   |
+|Medical therapy|   |   |   |x|   |   |   |   |   |   |   |
+|Cytarabine|   |   |   |   |   |x|   |   |   |   |   |
+|lenalidomide|   |   |   |   |   |   |   |   |   |   |x|
+|Cyclophosphamide|   |   |   |   |   |x|   |x|   |   |   |
+|Thioguanine|   |   |   |   |   |x|   |   |   |   |   |
+|Methotrexate|   |   |   |   |   |x|   |   |   |   |   |
+

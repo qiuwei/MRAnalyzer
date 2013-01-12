@@ -1,0 +1,26 @@
+FormalContext context1
+|   |
+|Leukopenia|
+|Cytotoxic agent|
+|Myelofibrosis|
+|Pathogenesis|
+|Anemia|
+
+FormalContext context2
+|   |name :Patients|name :Myelofibrosis|name :leukemia|name :Pathogenesis|
+|Patients|x|   |   |   |
+|Myelofibrosis|   |x|   |   |
+|leukemia|   |   |x|   |
+|Pathogenesis|   |   |   |x|
+
+RelationalContext AFFECTS
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Patients|Myelofibrosis|leukemia|Pathogenesis|
+|Leukopenia|x|   |   |   |
+|Cytotoxic agent|   |   |x|   |
+|Myelofibrosis|   |   |   |x|
+|Pathogenesis|   |x|   |   |
+|Anemia|x|   |   |   |
+

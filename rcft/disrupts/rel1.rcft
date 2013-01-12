@@ -1,0 +1,15 @@
+FormalContext context1
+|   |
+|COLLAGENASE|
+
+FormalContext context2
+|   |name :Megakaryocyte Proliferation|
+|Megakaryocyte Proliferation|x|
+
+RelationalContext DISRUPTS
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Megakaryocyte Proliferation|
+|COLLAGENASE|x|
+

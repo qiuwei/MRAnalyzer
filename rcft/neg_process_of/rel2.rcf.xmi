@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="NEG_PROCESS_OF" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.0"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Patients"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Splenomegaly"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :In complete remission"/>
+    <entities name="Splenomegaly"/>
+    <entities name="In complete remission"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

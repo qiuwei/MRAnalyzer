@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<clf:ConceptLatticeFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:clf="http://code.google.com/erca/erca.ecore/1.5.0#//clf" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" stepNumber="1">
+  <conceptLattices name="context1" top="//@conceptLattices.0/@concepts.0">
+    <attributes xsi:type="erca:RelationalAttribute" name="PRODUCES" value="//@conceptLattices.1/@concepts.0" scalingOperator="com.googlecode.erca.framework.algo.scaling.Wide"/>
+    <concepts name="Concept_0" intent="//@conceptLattices.0/@attributes.0">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/produces/rel2.rcf.xmi#//@formalContexts.0/@entities.0"/>
+    </concepts>
+  </conceptLattices>
+  <conceptLattices name="context2" top="//@conceptLattices.1/@concepts.0">
+    <concepts name="Concept_1">
+      <extent href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/produces/rel2.rcf.xmi#//@formalContexts.1/@entities.0"/>
+      <intent xsi:type="erca:BinaryAttribute" href="file:/media/Program_Data/Study/Web_Semantics/proj/RCFAnalyzer/src/./rcft/produces/rel2.rcf.xmi#//@formalContexts.1/@attributes.0"/>
+    </concepts>
+  </conceptLattices>
+</clf:ConceptLatticeFamily>

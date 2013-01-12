@@ -1,0 +1,98 @@
+FormalContext context1
+|   |
+|Syndrome|
+|Acute Megakaryocytic Leukemias|
+|Terminal illness|
+|Acute leukemia|
+|Hairy Cell Leukemia|
+|Malignant Neoplasms|
+|Primary Myelofibrosis|
+|Myeloid Leukemia, Chronic|
+|Panmyelopathy|
+|Down Syndrome|
+|Rare Diseases|
+|Myeloproliferation|
+|Disease|
+|Polycythemia Vera|
+|Introns|
+|Leukemia, Myelocytic, Acute|
+|Myeloproliferative disease|
+|Malignant histiocytosis|
+|Werner Syndrome|
+|Tamoxifen|
+|Collagen|
+|Blast Phase|
+|Monosomy 7|
+|Dysmyelopoietic Syndromes|
+|Diffuse Scleroderma|
+|Acute Disease|
+|Myelofibrosis|
+|Idiopathic sideroblastic anemia|
+
+FormalContext context2
+|   |name :Pallor|name :Chromosome abnormality|name :Transforming Growth Factor beta|name :Syndrome|name :Acute leukemia|name :myeloblastosis|name :fibrogenesis|name :Acute Erythroblastic Leukemia|name :Lymphopenia|name :Fibrosis|name :Myeloid Leukemia, Chronic|name :Megakaryocytic hyperplasia|name :Genes|name :Pancytopenia|name :Atypical proliferation|name :beta-Thromboglobulin|name :Anemia|name :Rare Diseases|name :Platelet Factor 4|name :Hyperplasia|name :Platelet-Derived Growth Factor|name :Myeloproliferative disease|name :Leukemia, Large Granular Lymphocytic|name :Werner Syndrome|name :Erythroblastosis|name :Fibroblast Growth Factor|name :Infiltration|name :Myelofibrosis|name :Tamoxifen|name :Morphologically altered structure|
+|Pallor|x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Chromosome abnormality|   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Transforming Growth Factor beta|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Syndrome|   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Acute leukemia|   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|myeloblastosis|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|fibrogenesis|   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Acute Erythroblastic Leukemia|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Lymphopenia|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Fibrosis|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Myeloid Leukemia, Chronic|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Megakaryocytic hyperplasia|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Genes|   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Pancytopenia|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Atypical proliferation|   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|beta-Thromboglobulin|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Anemia|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Rare Diseases|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Platelet Factor 4|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+|Hyperplasia|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |
+|Platelet-Derived Growth Factor|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+|Myeloproliferative disease|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |
+|Leukemia, Large Granular Lymphocytic|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |
+|Werner Syndrome|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Erythroblastosis|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |
+|Fibroblast Growth Factor|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |
+|Infiltration|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |
+|Myelofibrosis|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Tamoxifen|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Morphologically altered structure|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|
+
+RelationalContext COEXISTS_WITH
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Pallor|Chromosome abnormality|Transforming Growth Factor beta|Syndrome|Acute leukemia|myeloblastosis|fibrogenesis|Acute Erythroblastic Leukemia|Lymphopenia|Fibrosis|Myeloid Leukemia, Chronic|Megakaryocytic hyperplasia|Genes|Pancytopenia|Atypical proliferation|beta-Thromboglobulin|Anemia|Rare Diseases|Platelet Factor 4|Hyperplasia|Platelet-Derived Growth Factor|Myeloproliferative disease|Leukemia, Large Granular Lymphocytic|Werner Syndrome|Erythroblastosis|Fibroblast Growth Factor|Infiltration|Myelofibrosis|Tamoxifen|Morphologically altered structure|
+|Syndrome|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Acute Megakaryocytic Leukemias|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Terminal illness|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Acute leukemia|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Hairy Cell Leukemia|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |
+|Malignant Neoplasms|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Primary Myelofibrosis|   |   |   |   |   |x|   |   |   |   |   |   |   |x|   |   |x|   |   |   |   |   |   |   |x|   |   |x|   |   |
+|Myeloid Leukemia, Chronic|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Panmyelopathy|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Down Syndrome|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |x|   |   |   |   |   |x|   |   |
+|Rare Diseases|   |   |   |   |   |   |   |   |   |x|   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Myeloproliferation|   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Disease|   |x|   |   |   |   |   |   |   |x|   |   |   |x|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Polycythemia Vera|   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Introns|   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Leukemia, Myelocytic, Acute|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Myeloproliferative disease|   |x|   |   |   |x|   |   |   |x|   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|
+|Malignant histiocytosis|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Werner Syndrome|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Tamoxifen|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Collagen|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |x|   |x|   |   |   |   |x|   |   |   |   |
+|Blast Phase|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Monosomy 7|x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Dysmyelopoietic Syndromes|   |x|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Diffuse Scleroderma|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Acute Disease|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Myelofibrosis|   |   |   |x|x|   |   |x|   |x|   |   |   |x|   |   |   |   |   |x|   |   |x|x|   |   |   |   |   |   |
+|Idiopathic sideroblastic anemia|   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+

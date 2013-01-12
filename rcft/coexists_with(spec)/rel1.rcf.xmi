@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="COEXISTS_WITH(SPEC)" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.3"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.4"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Pancytopenia"/>
+    <entities name="Chromosome abnormality"/>
+    <entities name="Myelofibrosis"/>
+    <entities name="Fibrosis"/>
+    <entities name="myeloblastosis"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Chromosome abnormality"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Acute panmyelosis with myelofibrosis"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Myelofibrosis"/>
+    <entities name="Chromosome abnormality"/>
+    <entities name="Acute panmyelosis with myelofibrosis"/>
+    <entities name="Myelofibrosis"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

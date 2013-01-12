@@ -1,0 +1,17 @@
+FormalContext context1
+|   |
+|Splenomegaly|
+|In complete remission|
+
+FormalContext context2
+|   |name :Patients|
+|Patients|x|
+
+RelationalContext NEG_PROCESS_OF
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Patients|
+|Splenomegaly|x|
+|In complete remission|x|
+

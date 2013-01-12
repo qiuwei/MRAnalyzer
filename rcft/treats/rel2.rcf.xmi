@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="TREATS" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.12" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.16" source="//@formalContexts.0/@entities.3"/>
+    <relation target="//@formalContexts.1/@entities.7" source="//@formalContexts.0/@entities.4"/>
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.3" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.6" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.8" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.9" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.14" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.15" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.17" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.19" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.20" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.21" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.11" source="//@formalContexts.0/@entities.6"/>
+    <relation target="//@formalContexts.1/@entities.13" source="//@formalContexts.0/@entities.7"/>
+    <relation target="//@formalContexts.1/@entities.19" source="//@formalContexts.0/@entities.7"/>
+    <relation target="//@formalContexts.1/@entities.10" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.4" source="//@formalContexts.0/@entities.9"/>
+    <relation target="//@formalContexts.1/@entities.5" source="//@formalContexts.0/@entities.9"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.10"/>
+    <relation target="//@formalContexts.1/@entities.14" source="//@formalContexts.0/@entities.10"/>
+    <relation target="//@formalContexts.1/@entities.18" source="//@formalContexts.0/@entities.10"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="advanced disease"/>
+    <entities name="Malignant Neoplasms"/>
+    <entities name="Myeloid Leukemia, Chronic"/>
+    <entities name="Diarrhea"/>
+    <entities name="Disease"/>
+    <entities name="Patients"/>
+    <entities name="Fatal Outcome"/>
+    <entities name="Adult"/>
+    <entities name="thrombocytosis"/>
+    <entities name="Chronic Lymphocytic Leukemia"/>
+    <entities name="Myelofibrosis"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <relation target="//@formalContexts.1/@attributes.3" source="//@formalContexts.1/@entities.3"/>
+    <relation target="//@formalContexts.1/@attributes.4" source="//@formalContexts.1/@entities.4"/>
+    <relation target="//@formalContexts.1/@attributes.5" source="//@formalContexts.1/@entities.5"/>
+    <relation target="//@formalContexts.1/@attributes.6" source="//@formalContexts.1/@entities.6"/>
+    <relation target="//@formalContexts.1/@attributes.7" source="//@formalContexts.1/@entities.7"/>
+    <relation target="//@formalContexts.1/@attributes.8" source="//@formalContexts.1/@entities.8"/>
+    <relation target="//@formalContexts.1/@attributes.9" source="//@formalContexts.1/@entities.9"/>
+    <relation target="//@formalContexts.1/@attributes.10" source="//@formalContexts.1/@entities.10"/>
+    <relation target="//@formalContexts.1/@attributes.11" source="//@formalContexts.1/@entities.11"/>
+    <relation target="//@formalContexts.1/@attributes.12" source="//@formalContexts.1/@entities.12"/>
+    <relation target="//@formalContexts.1/@attributes.13" source="//@formalContexts.1/@entities.13"/>
+    <relation target="//@formalContexts.1/@attributes.14" source="//@formalContexts.1/@entities.14"/>
+    <relation target="//@formalContexts.1/@attributes.15" source="//@formalContexts.1/@entities.15"/>
+    <relation target="//@formalContexts.1/@attributes.16" source="//@formalContexts.1/@entities.16"/>
+    <relation target="//@formalContexts.1/@attributes.17" source="//@formalContexts.1/@entities.17"/>
+    <relation target="//@formalContexts.1/@attributes.18" source="//@formalContexts.1/@entities.18"/>
+    <relation target="//@formalContexts.1/@attributes.19" source="//@formalContexts.1/@entities.19"/>
+    <relation target="//@formalContexts.1/@attributes.20" source="//@formalContexts.1/@entities.20"/>
+    <relation target="//@formalContexts.1/@attributes.21" source="//@formalContexts.1/@entities.21"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Daunorubicin"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Splenectomy"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Allogeneic bone marrow transplantation"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Nephrectomy"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Whole-Body Irradiation"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Alkylating Agents"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Prednisone"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Bands"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Cytotoxic agent"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Combination Chemotherapy"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :hydroxyurea"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Pharmaceutical Preparations"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Radiation therapy"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Allografting"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Combination Drug Therapy"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Vincristine"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Medical therapy"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Cytarabine"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :lenalidomide"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Cyclophosphamide"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Thioguanine"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Methotrexate"/>
+    <entities name="Daunorubicin"/>
+    <entities name="Splenectomy"/>
+    <entities name="Allogeneic bone marrow transplantation"/>
+    <entities name="Nephrectomy"/>
+    <entities name="Whole-Body Irradiation"/>
+    <entities name="Alkylating Agents"/>
+    <entities name="Prednisone"/>
+    <entities name="Bands"/>
+    <entities name="Cytotoxic agent"/>
+    <entities name="Combination Chemotherapy"/>
+    <entities name="hydroxyurea"/>
+    <entities name="Pharmaceutical Preparations"/>
+    <entities name="Radiation therapy"/>
+    <entities name="Allografting"/>
+    <entities name="Combination Drug Therapy"/>
+    <entities name="Vincristine"/>
+    <entities name="Medical therapy"/>
+    <entities name="Cytarabine"/>
+    <entities name="lenalidomide"/>
+    <entities name="Cyclophosphamide"/>
+    <entities name="Thioguanine"/>
+    <entities name="Methotrexate"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

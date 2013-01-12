@@ -1,0 +1,136 @@
+FormalContext context1
+|   |
+|Toxic effect|
+|Chromosome abnormality|
+|Lupus Erythematosus, Systemic|
+|Syndrome|
+|Acute Megakaryocytic Leukemias|
+|Osteomyelosclerosis|
+|Leukaemia recurrent|
+|Symptoms|
+|Myelosuppression|
+|Chronic Lymphocytic Leukemia|
+|Acute leukemia|
+|Diabetic Retinopathy|
+|Malignant neoplasm of kidney|
+|Trisomy 8|
+|advanced disease|
+|Primary Myelofibrosis|
+|Esophageal carcinoma|
+|Hematological Disease|
+|Myeloid Leukemia, Chronic|
+|Diffuse Scleroderma|
+|Excretory function|
+|anemia; profound|
+|Pancytopenia|
+|Lymphoma|
+|Aggressive Non-Hodgkin's Lymphoma|
+|Granulocytic Sarcoma|
+|Chronic Disease|
+|Malignant disease|
+|Fibrosis|
+|Hematologic Neoplasms|
+|Chronic myeloproliferative disorder (morphology)|
+|Scleroderma|
+|Disease|
+|Hepatic Veno-Occlusive Disease|
+|leukemia|
+|Splenomegaly|
+|Stomatitis|
+|Leukemia, Myelocytic, Acute|
+|Myeloproliferative disease|
+|Observation parameter|
+|Renal mass|
+|Evaluable Disease|
+|Leukemia, Large Granular Lymphocytic|
+|Malignant histiocytosis|
+|Herpesviridae Infections|
+|Lymphoma, Large-Cell, Diffuse|
+|Down Syndrome|
+|Blast Phase|
+|Monosomy 7|
+|Long upper limb|
+|Hypercalcemia|
+|Lymphocyte Activation|
+|Acute graft-versus-host disease|
+|Acute Disease|
+|Myelofibrosis|
+|Aggressive behavior|
+|Dysmyelopoietic Syndromes|
+
+FormalContext context2
+|   |name :Homo sapiens|name :Woman|name :Brothers|name :Adolescent|name :sibling|name :Girls|name :Boys|name :Patients|name :Adult|name :Child|
+|Homo sapiens|x|   |   |   |   |   |   |   |   |   |
+|Woman|   |x|   |   |   |   |   |   |   |   |
+|Brothers|   |   |x|   |   |   |   |   |   |   |
+|Adolescent|   |   |   |x|   |   |   |   |   |   |
+|sibling|   |   |   |   |x|   |   |   |   |   |
+|Girls|   |   |   |   |   |x|   |   |   |   |
+|Boys|   |   |   |   |   |   |x|   |   |   |
+|Patients|   |   |   |   |   |   |   |x|   |   |
+|Adult|   |   |   |   |   |   |   |   |x|   |
+|Child|   |   |   |   |   |   |   |   |   |x|
+
+RelationalContext PROCESS_OF
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Homo sapiens|Woman|Brothers|Adolescent|sibling|Girls|Boys|Patients|Adult|Child|
+|Toxic effect|   |   |   |   |   |   |   |x|   |   |
+|Chromosome abnormality|   |   |   |   |   |   |   |x|   |   |
+|Lupus Erythematosus, Systemic|   |   |   |   |   |   |   |x|   |   |
+|Syndrome|   |   |   |   |   |   |   |x|   |   |
+|Acute Megakaryocytic Leukemias|   |   |   |   |   |   |   |x|   |   |
+|Osteomyelosclerosis|   |   |   |   |   |   |   |x|   |   |
+|Leukaemia recurrent|   |   |   |   |   |   |   |x|   |   |
+|Symptoms|x|   |   |   |   |   |   |   |   |   |
+|Myelosuppression|   |   |   |   |   |   |   |x|   |   |
+|Chronic Lymphocytic Leukemia|   |   |   |   |   |   |   |x|   |   |
+|Acute leukemia|   |   |   |   |   |   |   |x|x|   |
+|Diabetic Retinopathy|   |   |   |   |   |   |   |x|   |   |
+|Malignant neoplasm of kidney|   |   |   |   |   |   |   |x|   |   |
+|Trisomy 8|   |   |   |   |   |   |   |x|   |x|
+|advanced disease|   |   |   |   |   |   |   |x|   |   |
+|Primary Myelofibrosis|   |   |   |   |   |x|   |x|   |   |
+|Esophageal carcinoma|   |   |   |   |   |   |   |x|   |   |
+|Hematological Disease|   |   |   |   |   |   |   |x|   |   |
+|Myeloid Leukemia, Chronic|   |   |   |x|   |   |   |x|   |   |
+|Diffuse Scleroderma|   |   |   |   |   |   |   |x|   |   |
+|Excretory function|   |   |   |   |   |   |   |x|   |   |
+|anemia; profound|   |x|   |   |   |   |   |x|   |   |
+|Pancytopenia|   |   |   |   |   |x|   |x|   |   |
+|Lymphoma|   |   |   |   |   |   |   |x|   |   |
+|Aggressive Non-Hodgkin's Lymphoma|   |   |   |   |   |   |   |x|   |   |
+|Granulocytic Sarcoma|   |   |   |   |   |   |   |x|   |   |
+|Chronic Disease|   |   |   |   |   |   |   |x|   |   |
+|Malignant disease|   |   |   |   |   |   |   |x|   |   |
+|Fibrosis|   |   |   |   |   |   |   |x|   |   |
+|Hematologic Neoplasms|   |   |   |   |   |   |   |x|   |   |
+|Chronic myeloproliferative disorder (morphology)|   |   |   |   |   |   |   |x|   |   |
+|Scleroderma|   |   |   |   |   |   |   |x|   |   |
+|Disease|   |x|   |   |   |   |   |x|   |   |
+|Hepatic Veno-Occlusive Disease|   |   |   |   |   |   |   |x|   |   |
+|leukemia|   |   |   |   |   |   |   |x|x|x|
+|Splenomegaly|   |   |   |   |   |   |   |x|   |   |
+|Stomatitis|   |   |   |   |   |   |   |x|   |   |
+|Leukemia, Myelocytic, Acute|   |   |   |   |   |   |   |x|   |x|
+|Myeloproliferative disease|   |   |   |   |x|   |   |x|   |   |
+|Observation parameter|   |   |   |   |   |   |   |x|   |   |
+|Renal mass|   |   |   |   |   |   |   |x|   |   |
+|Evaluable Disease|   |   |   |   |   |   |   |x|   |   |
+|Leukemia, Large Granular Lymphocytic|   |   |   |   |   |   |   |x|   |   |
+|Malignant histiocytosis|   |   |   |   |   |   |   |x|   |   |
+|Herpesviridae Infections|   |   |   |   |   |   |   |x|   |   |
+|Lymphoma, Large-Cell, Diffuse|   |   |   |   |   |   |   |x|   |   |
+|Down Syndrome|   |   |   |   |   |   |x|x|   |x|
+|Blast Phase|   |   |   |   |   |   |   |x|   |   |
+|Monosomy 7|   |   |   |   |   |   |   |x|   |   |
+|Long upper limb|   |   |   |   |   |   |   |x|   |   |
+|Hypercalcemia|   |   |   |   |   |   |   |x|   |   |
+|Lymphocyte Activation|   |   |   |   |   |   |   |x|   |   |
+|Acute graft-versus-host disease|   |   |   |   |   |   |   |x|   |   |
+|Acute Disease|   |   |   |   |   |   |   |x|   |   |
+|Myelofibrosis|   |   |x|   |   |x|x|x|   |x|
+|Aggressive behavior|   |   |   |   |   |   |   |   |   |x|
+|Dysmyelopoietic Syndromes|   |   |   |   |   |   |   |x|   |   |
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="USES" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.5" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.3" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.6" source="//@formalContexts.0/@entities.3"/>
+    <relation target="//@formalContexts.1/@entities.4" source="//@formalContexts.0/@entities.4"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Patients"/>
+    <entities name="Staining method"/>
+    <entities name="Combination Drug Therapy"/>
+    <entities name="Microscopy"/>
+    <entities name="Radioisotope scan of bone"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <relation target="//@formalContexts.1/@attributes.3" source="//@formalContexts.1/@entities.3"/>
+    <relation target="//@formalContexts.1/@attributes.4" source="//@formalContexts.1/@entities.4"/>
+    <relation target="//@formalContexts.1/@attributes.5" source="//@formalContexts.1/@entities.5"/>
+    <relation target="//@formalContexts.1/@attributes.6" source="//@formalContexts.1/@entities.6"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Sudan Black B"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Prednisone"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Cytarabine"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Vincristine"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Technetium Tc 99m Medronate"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Support, device"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Lights, manufactured"/>
+    <entities name="Sudan Black B"/>
+    <entities name="Prednisone"/>
+    <entities name="Cytarabine"/>
+    <entities name="Vincristine"/>
+    <entities name="Technetium Tc 99m Medronate"/>
+    <entities name="Support, device"/>
+    <entities name="Lights, manufactured"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

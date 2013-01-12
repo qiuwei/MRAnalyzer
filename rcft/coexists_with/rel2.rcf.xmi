@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="COEXISTS_WITH" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.13" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.27" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.13" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.27" source="//@formalContexts.0/@entities.3"/>
+    <relation target="//@formalContexts.1/@entities.26" source="//@formalContexts.0/@entities.4"/>
+    <relation target="//@formalContexts.1/@entities.9" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.5" source="//@formalContexts.0/@entities.6"/>
+    <relation target="//@formalContexts.1/@entities.13" source="//@formalContexts.0/@entities.6"/>
+    <relation target="//@formalContexts.1/@entities.16" source="//@formalContexts.0/@entities.6"/>
+    <relation target="//@formalContexts.1/@entities.24" source="//@formalContexts.0/@entities.6"/>
+    <relation target="//@formalContexts.1/@entities.27" source="//@formalContexts.0/@entities.6"/>
+    <relation target="//@formalContexts.1/@entities.9" source="//@formalContexts.0/@entities.7"/>
+    <relation target="//@formalContexts.1/@entities.11" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.17" source="//@formalContexts.0/@entities.9"/>
+    <relation target="//@formalContexts.1/@entities.21" source="//@formalContexts.0/@entities.9"/>
+    <relation target="//@formalContexts.1/@entities.27" source="//@formalContexts.0/@entities.9"/>
+    <relation target="//@formalContexts.1/@entities.9" source="//@formalContexts.0/@entities.10"/>
+    <relation target="//@formalContexts.1/@entities.13" source="//@formalContexts.0/@entities.10"/>
+    <relation target="//@formalContexts.1/@entities.6" source="//@formalContexts.0/@entities.11"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.12"/>
+    <relation target="//@formalContexts.1/@entities.9" source="//@formalContexts.0/@entities.12"/>
+    <relation target="//@formalContexts.1/@entities.13" source="//@formalContexts.0/@entities.12"/>
+    <relation target="//@formalContexts.1/@entities.16" source="//@formalContexts.0/@entities.12"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.13"/>
+    <relation target="//@formalContexts.1/@entities.12" source="//@formalContexts.0/@entities.14"/>
+    <relation target="//@formalContexts.1/@entities.27" source="//@formalContexts.0/@entities.15"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.16"/>
+    <relation target="//@formalContexts.1/@entities.5" source="//@formalContexts.0/@entities.16"/>
+    <relation target="//@formalContexts.1/@entities.9" source="//@formalContexts.0/@entities.16"/>
+    <relation target="//@formalContexts.1/@entities.13" source="//@formalContexts.0/@entities.16"/>
+    <relation target="//@formalContexts.1/@entities.29" source="//@formalContexts.0/@entities.16"/>
+    <relation target="//@formalContexts.1/@entities.8" source="//@formalContexts.0/@entities.17"/>
+    <relation target="//@formalContexts.1/@entities.27" source="//@formalContexts.0/@entities.18"/>
+    <relation target="//@formalContexts.1/@entities.28" source="//@formalContexts.0/@entities.19"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.20"/>
+    <relation target="//@formalContexts.1/@entities.15" source="//@formalContexts.0/@entities.20"/>
+    <relation target="//@formalContexts.1/@entities.18" source="//@formalContexts.0/@entities.20"/>
+    <relation target="//@formalContexts.1/@entities.20" source="//@formalContexts.0/@entities.20"/>
+    <relation target="//@formalContexts.1/@entities.25" source="//@formalContexts.0/@entities.20"/>
+    <relation target="//@formalContexts.1/@entities.10" source="//@formalContexts.0/@entities.21"/>
+    <relation target="//@formalContexts.1/@entities.27" source="//@formalContexts.0/@entities.21"/>
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.22"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.23"/>
+    <relation target="//@formalContexts.1/@entities.13" source="//@formalContexts.0/@entities.23"/>
+    <relation target="//@formalContexts.1/@entities.27" source="//@formalContexts.0/@entities.24"/>
+    <relation target="//@formalContexts.1/@entities.27" source="//@formalContexts.0/@entities.25"/>
+    <relation target="//@formalContexts.1/@entities.3" source="//@formalContexts.0/@entities.26"/>
+    <relation target="//@formalContexts.1/@entities.4" source="//@formalContexts.0/@entities.26"/>
+    <relation target="//@formalContexts.1/@entities.7" source="//@formalContexts.0/@entities.26"/>
+    <relation target="//@formalContexts.1/@entities.9" source="//@formalContexts.0/@entities.26"/>
+    <relation target="//@formalContexts.1/@entities.13" source="//@formalContexts.0/@entities.26"/>
+    <relation target="//@formalContexts.1/@entities.19" source="//@formalContexts.0/@entities.26"/>
+    <relation target="//@formalContexts.1/@entities.22" source="//@formalContexts.0/@entities.26"/>
+    <relation target="//@formalContexts.1/@entities.23" source="//@formalContexts.0/@entities.26"/>
+    <relation target="//@formalContexts.1/@entities.14" source="//@formalContexts.0/@entities.27"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Syndrome"/>
+    <entities name="Acute Megakaryocytic Leukemias"/>
+    <entities name="Terminal illness"/>
+    <entities name="Acute leukemia"/>
+    <entities name="Hairy Cell Leukemia"/>
+    <entities name="Malignant Neoplasms"/>
+    <entities name="Primary Myelofibrosis"/>
+    <entities name="Myeloid Leukemia, Chronic"/>
+    <entities name="Panmyelopathy"/>
+    <entities name="Down Syndrome"/>
+    <entities name="Rare Diseases"/>
+    <entities name="Myeloproliferation"/>
+    <entities name="Disease"/>
+    <entities name="Polycythemia Vera"/>
+    <entities name="Introns"/>
+    <entities name="Leukemia, Myelocytic, Acute"/>
+    <entities name="Myeloproliferative disease"/>
+    <entities name="Malignant histiocytosis"/>
+    <entities name="Werner Syndrome"/>
+    <entities name="Tamoxifen"/>
+    <entities name="Collagen"/>
+    <entities name="Blast Phase"/>
+    <entities name="Monosomy 7"/>
+    <entities name="Dysmyelopoietic Syndromes"/>
+    <entities name="Diffuse Scleroderma"/>
+    <entities name="Acute Disease"/>
+    <entities name="Myelofibrosis"/>
+    <entities name="Idiopathic sideroblastic anemia"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <relation target="//@formalContexts.1/@attributes.3" source="//@formalContexts.1/@entities.3"/>
+    <relation target="//@formalContexts.1/@attributes.4" source="//@formalContexts.1/@entities.4"/>
+    <relation target="//@formalContexts.1/@attributes.5" source="//@formalContexts.1/@entities.5"/>
+    <relation target="//@formalContexts.1/@attributes.6" source="//@formalContexts.1/@entities.6"/>
+    <relation target="//@formalContexts.1/@attributes.7" source="//@formalContexts.1/@entities.7"/>
+    <relation target="//@formalContexts.1/@attributes.8" source="//@formalContexts.1/@entities.8"/>
+    <relation target="//@formalContexts.1/@attributes.9" source="//@formalContexts.1/@entities.9"/>
+    <relation target="//@formalContexts.1/@attributes.10" source="//@formalContexts.1/@entities.10"/>
+    <relation target="//@formalContexts.1/@attributes.11" source="//@formalContexts.1/@entities.11"/>
+    <relation target="//@formalContexts.1/@attributes.12" source="//@formalContexts.1/@entities.12"/>
+    <relation target="//@formalContexts.1/@attributes.13" source="//@formalContexts.1/@entities.13"/>
+    <relation target="//@formalContexts.1/@attributes.14" source="//@formalContexts.1/@entities.14"/>
+    <relation target="//@formalContexts.1/@attributes.15" source="//@formalContexts.1/@entities.15"/>
+    <relation target="//@formalContexts.1/@attributes.16" source="//@formalContexts.1/@entities.16"/>
+    <relation target="//@formalContexts.1/@attributes.17" source="//@formalContexts.1/@entities.17"/>
+    <relation target="//@formalContexts.1/@attributes.18" source="//@formalContexts.1/@entities.18"/>
+    <relation target="//@formalContexts.1/@attributes.19" source="//@formalContexts.1/@entities.19"/>
+    <relation target="//@formalContexts.1/@attributes.20" source="//@formalContexts.1/@entities.20"/>
+    <relation target="//@formalContexts.1/@attributes.21" source="//@formalContexts.1/@entities.21"/>
+    <relation target="//@formalContexts.1/@attributes.22" source="//@formalContexts.1/@entities.22"/>
+    <relation target="//@formalContexts.1/@attributes.23" source="//@formalContexts.1/@entities.23"/>
+    <relation target="//@formalContexts.1/@attributes.24" source="//@formalContexts.1/@entities.24"/>
+    <relation target="//@formalContexts.1/@attributes.25" source="//@formalContexts.1/@entities.25"/>
+    <relation target="//@formalContexts.1/@attributes.26" source="//@formalContexts.1/@entities.26"/>
+    <relation target="//@formalContexts.1/@attributes.27" source="//@formalContexts.1/@entities.27"/>
+    <relation target="//@formalContexts.1/@attributes.28" source="//@formalContexts.1/@entities.28"/>
+    <relation target="//@formalContexts.1/@attributes.29" source="//@formalContexts.1/@entities.29"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Pallor"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Chromosome abnormality"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Transforming Growth Factor beta"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Syndrome"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Acute leukemia"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :myeloblastosis"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :fibrogenesis"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Acute Erythroblastic Leukemia"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Lymphopenia"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Fibrosis"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Myeloid Leukemia, Chronic"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Megakaryocytic hyperplasia"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Genes"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Pancytopenia"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Atypical proliferation"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :beta-Thromboglobulin"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Anemia"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Rare Diseases"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Platelet Factor 4"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Hyperplasia"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Platelet-Derived Growth Factor"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Myeloproliferative disease"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Leukemia, Large Granular Lymphocytic"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Werner Syndrome"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Erythroblastosis"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Fibroblast Growth Factor"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Infiltration"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Myelofibrosis"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Tamoxifen"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Morphologically altered structure"/>
+    <entities name="Pallor"/>
+    <entities name="Chromosome abnormality"/>
+    <entities name="Transforming Growth Factor beta"/>
+    <entities name="Syndrome"/>
+    <entities name="Acute leukemia"/>
+    <entities name="myeloblastosis"/>
+    <entities name="fibrogenesis"/>
+    <entities name="Acute Erythroblastic Leukemia"/>
+    <entities name="Lymphopenia"/>
+    <entities name="Fibrosis"/>
+    <entities name="Myeloid Leukemia, Chronic"/>
+    <entities name="Megakaryocytic hyperplasia"/>
+    <entities name="Genes"/>
+    <entities name="Pancytopenia"/>
+    <entities name="Atypical proliferation"/>
+    <entities name="beta-Thromboglobulin"/>
+    <entities name="Anemia"/>
+    <entities name="Rare Diseases"/>
+    <entities name="Platelet Factor 4"/>
+    <entities name="Hyperplasia"/>
+    <entities name="Platelet-Derived Growth Factor"/>
+    <entities name="Myeloproliferative disease"/>
+    <entities name="Leukemia, Large Granular Lymphocytic"/>
+    <entities name="Werner Syndrome"/>
+    <entities name="Erythroblastosis"/>
+    <entities name="Fibroblast Growth Factor"/>
+    <entities name="Infiltration"/>
+    <entities name="Myelofibrosis"/>
+    <entities name="Tamoxifen"/>
+    <entities name="Morphologically altered structure"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

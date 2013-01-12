@@ -1,0 +1,19 @@
+FormalContext context1
+|   |
+|Transforming Growth Factor beta|
+|Growth Factor|
+
+FormalContext context2
+|   |name :Phorbol Esters|name :Azacitidine|name :DNA, Complementary|
+|Phorbol Esters|x|   |   |
+|Azacitidine|   |x|   |
+|DNA, Complementary|   |   |x|
+
+RelationalContext INTERACTS_WITH
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Phorbol Esters|Azacitidine|DNA, Complementary|
+|Transforming Growth Factor beta|   |   |x|
+|Growth Factor|x|x|   |
+

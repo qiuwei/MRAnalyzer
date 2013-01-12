@@ -1,0 +1,23 @@
+FormalContext context1
+|   |
+|Chromosome abnormality|
+|Acute panmyelosis with myelofibrosis|
+|Myelofibrosis|
+
+FormalContext context2
+|   |name :Pancytopenia|name :Chromosome abnormality|name :Myelofibrosis|name :Fibrosis|name :myeloblastosis|
+|Pancytopenia|x|   |   |   |   |
+|Chromosome abnormality|   |x|   |   |   |
+|Myelofibrosis|   |   |x|   |   |
+|Fibrosis|   |   |   |x|   |
+|myeloblastosis|   |   |   |   |x|
+
+RelationalContext COEXISTS_WITH(SPEC)
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Pancytopenia|Chromosome abnormality|Myelofibrosis|Fibrosis|myeloblastosis|
+|Chromosome abnormality|   |x|   |   |   |
+|Acute panmyelosis with myelofibrosis|x|   |   |   |   |
+|Myelofibrosis|x|   |x|x|x|
+

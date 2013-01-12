@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="PART_OF" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.22" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.24" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.29" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.4" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.9" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.3"/>
+    <relation target="//@formalContexts.1/@entities.15" source="//@formalContexts.0/@entities.3"/>
+    <relation target="//@formalContexts.1/@entities.30" source="//@formalContexts.0/@entities.3"/>
+    <relation target="//@formalContexts.1/@entities.19" source="//@formalContexts.0/@entities.4"/>
+    <relation target="//@formalContexts.1/@entities.21" source="//@formalContexts.0/@entities.4"/>
+    <relation target="//@formalContexts.1/@entities.25" source="//@formalContexts.0/@entities.4"/>
+    <relation target="//@formalContexts.1/@entities.5" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.20" source="//@formalContexts.0/@entities.6"/>
+    <relation target="//@formalContexts.1/@entities.7" source="//@formalContexts.0/@entities.7"/>
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.3" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.7" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.14" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.16" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.17" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.18" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.21" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.26" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.27" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.28" source="//@formalContexts.0/@entities.8"/>
+    <relation target="//@formalContexts.1/@entities.12" source="//@formalContexts.0/@entities.9"/>
+    <relation target="//@formalContexts.1/@entities.23" source="//@formalContexts.0/@entities.10"/>
+    <relation target="//@formalContexts.1/@entities.8" source="//@formalContexts.0/@entities.11"/>
+    <relation target="//@formalContexts.1/@entities.15" source="//@formalContexts.0/@entities.12"/>
+    <relation target="//@formalContexts.1/@entities.6" source="//@formalContexts.0/@entities.13"/>
+    <relation target="//@formalContexts.1/@entities.7" source="//@formalContexts.0/@entities.13"/>
+    <relation target="//@formalContexts.1/@entities.11" source="//@formalContexts.0/@entities.13"/>
+    <relation target="//@formalContexts.1/@entities.13" source="//@formalContexts.0/@entities.13"/>
+    <relation target="//@formalContexts.1/@entities.10" source="//@formalContexts.0/@entities.14"/>
+    <relation target="//@formalContexts.1/@entities.21" source="//@formalContexts.0/@entities.14"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Homo sapiens"/>
+    <entities name="Woman"/>
+    <entities name="Megakaryoblast"/>
+    <entities name="Mandible"/>
+    <entities name="Bone Marrow"/>
+    <entities name="Clone"/>
+    <entities name="Endoplasmic Reticulum"/>
+    <entities name="Blood Platelets"/>
+    <entities name="Patients"/>
+    <entities name="Individual"/>
+    <entities name="Blast Cell"/>
+    <entities name="Leukocyte - Myelocyte (Granulocyte) (MMHCC)"/>
+    <entities name="Ovary"/>
+    <entities name="Myelofibrosis"/>
+    <entities name="Biopsy sample"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <relation target="//@formalContexts.1/@attributes.3" source="//@formalContexts.1/@entities.3"/>
+    <relation target="//@formalContexts.1/@attributes.4" source="//@formalContexts.1/@entities.4"/>
+    <relation target="//@formalContexts.1/@attributes.5" source="//@formalContexts.1/@entities.5"/>
+    <relation target="//@formalContexts.1/@attributes.6" source="//@formalContexts.1/@entities.6"/>
+    <relation target="//@formalContexts.1/@attributes.7" source="//@formalContexts.1/@entities.7"/>
+    <relation target="//@formalContexts.1/@attributes.8" source="//@formalContexts.1/@entities.8"/>
+    <relation target="//@formalContexts.1/@attributes.9" source="//@formalContexts.1/@entities.9"/>
+    <relation target="//@formalContexts.1/@attributes.10" source="//@formalContexts.1/@entities.10"/>
+    <relation target="//@formalContexts.1/@attributes.11" source="//@formalContexts.1/@entities.11"/>
+    <relation target="//@formalContexts.1/@attributes.12" source="//@formalContexts.1/@entities.12"/>
+    <relation target="//@formalContexts.1/@attributes.13" source="//@formalContexts.1/@entities.13"/>
+    <relation target="//@formalContexts.1/@attributes.14" source="//@formalContexts.1/@entities.14"/>
+    <relation target="//@formalContexts.1/@attributes.15" source="//@formalContexts.1/@entities.15"/>
+    <relation target="//@formalContexts.1/@attributes.16" source="//@formalContexts.1/@entities.16"/>
+    <relation target="//@formalContexts.1/@attributes.17" source="//@formalContexts.1/@entities.17"/>
+    <relation target="//@formalContexts.1/@attributes.18" source="//@formalContexts.1/@entities.18"/>
+    <relation target="//@formalContexts.1/@attributes.19" source="//@formalContexts.1/@entities.19"/>
+    <relation target="//@formalContexts.1/@attributes.20" source="//@formalContexts.1/@entities.20"/>
+    <relation target="//@formalContexts.1/@attributes.21" source="//@formalContexts.1/@entities.21"/>
+    <relation target="//@formalContexts.1/@attributes.22" source="//@formalContexts.1/@entities.22"/>
+    <relation target="//@formalContexts.1/@attributes.23" source="//@formalContexts.1/@entities.23"/>
+    <relation target="//@formalContexts.1/@attributes.24" source="//@formalContexts.1/@entities.24"/>
+    <relation target="//@formalContexts.1/@attributes.25" source="//@formalContexts.1/@entities.25"/>
+    <relation target="//@formalContexts.1/@attributes.26" source="//@formalContexts.1/@entities.26"/>
+    <relation target="//@formalContexts.1/@attributes.27" source="//@formalContexts.1/@entities.27"/>
+    <relation target="//@formalContexts.1/@attributes.28" source="//@formalContexts.1/@entities.28"/>
+    <relation target="//@formalContexts.1/@attributes.29" source="//@formalContexts.1/@entities.29"/>
+    <relation target="//@formalContexts.1/@attributes.30" source="//@formalContexts.1/@entities.30"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Antibodies, Anti-Idiotypic"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Acute Megakaryocytic Leukemias"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Monoclonal Antibodies"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Platelet-specific antibody"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Chromosomes, Human, Pair 2"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Interferon Alfa-2a"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Peroxidase"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Alkaline Phosphatase"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Immune Sera"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Megakaryocytes"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Muramidase"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Blood"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Marrow"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Leukemic Cell"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Granulocytic Sarcoma"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Anabolic steroids"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Spleen"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Interferon Type II"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Fibroblasts"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Perinuclear cisterna"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Blast Cell"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :fibroblast cell line"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Myeloid cell containing Auer rod(s)"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Type III Procollagen"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Collagen"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Erythrocytes"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :BCR protein, human"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :DHPS gene"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Skin nodule"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Myelofibrosis"/>
+    <entities name=""/>
+    <entities name="Antibodies, Anti-Idiotypic"/>
+    <entities name="Acute Megakaryocytic Leukemias"/>
+    <entities name="Monoclonal Antibodies"/>
+    <entities name="Platelet-specific antibody"/>
+    <entities name="Chromosomes, Human, Pair 2"/>
+    <entities name="Interferon Alfa-2a"/>
+    <entities name="Peroxidase"/>
+    <entities name="Alkaline Phosphatase"/>
+    <entities name="Immune Sera"/>
+    <entities name="Megakaryocytes"/>
+    <entities name="Muramidase"/>
+    <entities name="Blood"/>
+    <entities name="Marrow"/>
+    <entities name="Leukemic Cell"/>
+    <entities name="Granulocytic Sarcoma"/>
+    <entities name="Anabolic steroids"/>
+    <entities name="Spleen"/>
+    <entities name="Interferon Type II"/>
+    <entities name="Fibroblasts"/>
+    <entities name="Perinuclear cisterna"/>
+    <entities name="Blast Cell"/>
+    <entities name="fibroblast cell line"/>
+    <entities name="Myeloid cell containing Auer rod(s)"/>
+    <entities name="Type III Procollagen"/>
+    <entities name="Collagen"/>
+    <entities name="Erythrocytes"/>
+    <entities name="BCR protein, human"/>
+    <entities name="DHPS gene"/>
+    <entities name="Skin nodule"/>
+    <entities name="Myelofibrosis"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

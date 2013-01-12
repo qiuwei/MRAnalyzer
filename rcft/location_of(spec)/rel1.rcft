@@ -1,0 +1,24 @@
+FormalContext context1
+|   |
+|Clone|
+|Marrow|
+|Cells|
+|Hematopoietic stem cells|
+|Stem cells|
+
+FormalContext context2
+|   |name :Myelofibrosis|name :Fibrosis|
+|Myelofibrosis|x|   |
+|Fibrosis|   |x|
+
+RelationalContext LOCATION_OF(SPEC)
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Myelofibrosis|Fibrosis|
+|Clone|x|   |
+|Marrow|x|   |
+|Cells|x|   |
+|Hematopoietic stem cells|x|   |
+|Stem cells|   |x|
+

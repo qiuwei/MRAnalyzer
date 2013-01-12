@@ -1,0 +1,19 @@
+FormalContext context1
+|   |
+|Aggressive Non-Hodgkin's Lymphoma|
+|leukemia|
+
+FormalContext context2
+|   |name :Cyclophosphamide|name :Allografting|name :Combination Chemotherapy|
+|Cyclophosphamide|x|   |   |
+|Allografting|   |x|   |
+|Combination Chemotherapy|   |   |x|
+
+RelationalContext TREATS(INFER)
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Cyclophosphamide|Allografting|Combination Chemotherapy|
+|Aggressive Non-Hodgkin's Lymphoma|   |   |x|
+|leukemia|x|x|   |
+

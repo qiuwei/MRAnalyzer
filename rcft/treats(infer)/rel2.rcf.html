@@ -1,0 +1,49 @@
+<html><head><title>Relational Context Family</title><style type="text/css">body { background-color: white; color: black; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:small; }table { border: medium solid black; border-collapse: collapse; empty-cells:show; }td, th { border: thin solid black; font-size:small; text-align: center; padding: 5px;}</style></head><body>
+<p><b>context1</b> (formal context)</p>
+<table><tr><td></td>
+</tr>
+<tr><td>Aggressive Non-Hodgkin's Lymphoma</td>
+</tr>
+<tr><td>leukemia</td>
+</tr>
+</table>
+<p><b>context2</b> (formal context)</p>
+<table><tr><td></td>
+<td>name :Cyclophosphamide</td>
+<td>name :Allografting</td>
+<td>name :Combination Chemotherapy</td>
+</tr>
+<tr><td>Cyclophosphamide</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td>Allografting</td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr><td>Combination Chemotherapy</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+</table>
+<p><b>TREATS(INFER)</b> (relational context)</p>
+<table><tr><td></td>
+<td>Cyclophosphamide</td>
+<td>Allografting</td>
+<td>Combination Chemotherapy</td>
+</tr>
+<tr><td>Aggressive Non-Hodgkin's Lymphoma</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr><td>leukemia</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+</tr>
+</table>
+</body></html>

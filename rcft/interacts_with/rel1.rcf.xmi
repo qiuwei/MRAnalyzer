@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="INTERACTS_WITH" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.1"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Transforming Growth Factor beta"/>
+    <entities name="Growth Factor"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Phorbol Esters"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Azacitidine"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :DNA, Complementary"/>
+    <entities name="Phorbol Esters"/>
+    <entities name="Azacitidine"/>
+    <entities name="DNA, Complementary"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

@@ -1,0 +1,73 @@
+FormalContext context1
+|   |
+|Homo sapiens|
+|Woman|
+|Megakaryoblast|
+|Mandible|
+|Bone Marrow|
+|Clone|
+|Endoplasmic Reticulum|
+|Blood Platelets|
+|Patients|
+|Individual|
+|Blast Cell|
+|Leukocyte - Myelocyte (Granulocyte) (MMHCC)|
+|Ovary|
+|Myelofibrosis|
+|Biopsy sample|
+
+FormalContext context2
+|   |name :|name :Antibodies, Anti-Idiotypic|name :Acute Megakaryocytic Leukemias|name :Monoclonal Antibodies|name :Platelet-specific antibody|name :Chromosomes, Human, Pair 2|name :Interferon Alfa-2a|name :Peroxidase|name :Alkaline Phosphatase|name :Immune Sera|name :Megakaryocytes|name :Muramidase|name :Blood|name :Marrow|name :Leukemic Cell|name :Granulocytic Sarcoma|name :Anabolic steroids|name :Spleen|name :Interferon Type II|name :Fibroblasts|name :Perinuclear cisterna|name :Blast Cell|name :fibroblast cell line|name :Myeloid cell containing Auer rod(s)|name :Type III Procollagen|name :Collagen|name :Erythrocytes|name :BCR protein, human|name :DHPS gene|name :Skin nodule|name :Myelofibrosis|
+||x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Antibodies, Anti-Idiotypic|   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Acute Megakaryocytic Leukemias|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Monoclonal Antibodies|   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Platelet-specific antibody|   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Chromosomes, Human, Pair 2|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Interferon Alfa-2a|   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Peroxidase|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Alkaline Phosphatase|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Immune Sera|   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Megakaryocytes|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Muramidase|   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Blood|   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Marrow|   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Leukemic Cell|   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Granulocytic Sarcoma|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Anabolic steroids|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Spleen|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Interferon Type II|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |
+|Fibroblasts|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |
+|Perinuclear cisterna|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |
+|Blast Cell|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+|fibroblast cell line|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |
+|Myeloid cell containing Auer rod(s)|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |
+|Type III Procollagen|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |
+|Collagen|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |
+|Erythrocytes|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |
+|BCR protein, human|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |
+|DHPS gene|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |
+|Skin nodule|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Myelofibrosis|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|
+
+RelationalContext PART_OF
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   ||Antibodies, Anti-Idiotypic|Acute Megakaryocytic Leukemias|Monoclonal Antibodies|Platelet-specific antibody|Chromosomes, Human, Pair 2|Interferon Alfa-2a|Peroxidase|Alkaline Phosphatase|Immune Sera|Megakaryocytes|Muramidase|Blood|Marrow|Leukemic Cell|Granulocytic Sarcoma|Anabolic steroids|Spleen|Interferon Type II|Fibroblasts|Perinuclear cisterna|Blast Cell|fibroblast cell line|Myeloid cell containing Auer rod(s)|Type III Procollagen|Collagen|Erythrocytes|BCR protein, human|DHPS gene|Skin nodule|Myelofibrosis|
+|Homo sapiens|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |x|   |   |   |   |   |   |
+|Woman|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |
+|Megakaryoblast|   |x|   |   |x|   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Mandible|   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|
+|Bone Marrow|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |x|   |   |   |x|   |   |   |   |   |
+|Clone|   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Endoplasmic Reticulum|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |
+|Blood Platelets|   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Patients|x|   |   |x|   |   |   |x|   |   |   |   |   |   |x|   |x|x|x|   |   |x|   |   |   |   |x|x|x|   |   |
+|Individual|   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Blast Cell|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |
+|Leukocyte - Myelocyte (Granulocyte) (MMHCC)|   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Ovary|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Myelofibrosis|   |   |   |   |   |   |x|x|   |   |   |x|   |x|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|Biopsy sample|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |   |x|   |   |   |   |   |   |   |   |   |
+

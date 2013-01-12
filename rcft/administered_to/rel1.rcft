@@ -1,0 +1,23 @@
+FormalContext context1
+|   |
+|Monoclonal Antibodies|
+|Autocrine Motility Factor|
+|Splenectomy|
+|Operative Surgical Procedures|
+|Cytotoxic agent|
+
+FormalContext context2
+|   |name :Patients|
+|Patients|x|
+
+RelationalContext ADMINISTERED_TO
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Patients|
+|Monoclonal Antibodies|x|
+|Autocrine Motility Factor|x|
+|Splenectomy|x|
+|Operative Surgical Procedures|x|
+|Cytotoxic agent|x|
+

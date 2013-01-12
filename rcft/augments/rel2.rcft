@@ -1,0 +1,26 @@
+FormalContext context1
+|   |
+|Cells|
+|Growth|
+|Polyploid Cell|
+|Connective Tissue - Fibroblasts (MMHCC)|
+
+FormalContext context2
+|   |name :Platelet Factor 4|name :Transforming Growth Factor beta|name :Cytochalasin B|name :Granulocyte-Macrophage Colony-Stimulating Factor|name :Platelet-Derived Growth Factor|name :Interleukin-3|
+|Platelet Factor 4|x|   |   |   |   |   |
+|Transforming Growth Factor beta|   |x|   |   |   |   |
+|Cytochalasin B|   |   |x|   |   |   |
+|Granulocyte-Macrophage Colony-Stimulating Factor|   |   |   |x|   |   |
+|Platelet-Derived Growth Factor|   |   |   |   |x|   |
+|Interleukin-3|   |   |   |   |   |x|
+
+RelationalContext AUGMENTS
+source context1
+target context2
+scaling com.googlecode.erca.framework.algo.scaling.Wide
+|   |Platelet Factor 4|Transforming Growth Factor beta|Cytochalasin B|Granulocyte-Macrophage Colony-Stimulating Factor|Platelet-Derived Growth Factor|Interleukin-3|
+|Cells|   |   |   |x|   |x|
+|Growth|x|x|   |   |   |   |
+|Polyploid Cell|   |   |x|   |   |   |
+|Connective Tissue - Fibroblasts (MMHCC)|   |   |   |   |x|   |
+

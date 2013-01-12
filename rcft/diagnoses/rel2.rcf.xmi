@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="DIAGNOSES" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.12" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.3" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.6" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.7" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.8" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.10" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.5" source="//@formalContexts.0/@entities.3"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.4"/>
+    <relation target="//@formalContexts.1/@entities.4" source="//@formalContexts.0/@entities.4"/>
+    <relation target="//@formalContexts.1/@entities.8" source="//@formalContexts.0/@entities.4"/>
+    <relation target="//@formalContexts.1/@entities.4" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.8" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.9" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.12" source="//@formalContexts.0/@entities.5"/>
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.6"/>
+    <relation target="//@formalContexts.1/@entities.11" source="//@formalContexts.0/@entities.7"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Metaplasia"/>
+    <entities name="Acute Megakaryocytic Leukemias"/>
+    <entities name="Myelofibrosis"/>
+    <entities name="Leukocytosis"/>
+    <entities name="Fibrosis"/>
+    <entities name="Infiltration"/>
+    <entities name="Osteomyelosclerosis"/>
+    <entities name="Hypoploidy"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <relation target="//@formalContexts.1/@attributes.3" source="//@formalContexts.1/@entities.3"/>
+    <relation target="//@formalContexts.1/@attributes.4" source="//@formalContexts.1/@entities.4"/>
+    <relation target="//@formalContexts.1/@attributes.5" source="//@formalContexts.1/@entities.5"/>
+    <relation target="//@formalContexts.1/@attributes.6" source="//@formalContexts.1/@entities.6"/>
+    <relation target="//@formalContexts.1/@attributes.7" source="//@formalContexts.1/@entities.7"/>
+    <relation target="//@formalContexts.1/@attributes.8" source="//@formalContexts.1/@entities.8"/>
+    <relation target="//@formalContexts.1/@attributes.9" source="//@formalContexts.1/@entities.9"/>
+    <relation target="//@formalContexts.1/@attributes.10" source="//@formalContexts.1/@entities.10"/>
+    <relation target="//@formalContexts.1/@attributes.11" source="//@formalContexts.1/@entities.11"/>
+    <relation target="//@formalContexts.1/@attributes.12" source="//@formalContexts.1/@entities.12"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Chromatography, Gel"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Phosphate measurement"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Bone Marrow Examination"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Surgical biopsy"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Biopsy"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Blood Count, Complete"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Microscopy, Electron, Scanning"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Immunophenotyping"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Bone marrow biopsy"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Magnetic Resonance Imaging"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Cytogenetic procedure"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Chromosomal analysis"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Radionuclide Imaging"/>
+    <entities name="Chromatography, Gel"/>
+    <entities name="Phosphate measurement"/>
+    <entities name="Bone Marrow Examination"/>
+    <entities name="Surgical biopsy"/>
+    <entities name="Biopsy"/>
+    <entities name="Blood Count, Complete"/>
+    <entities name="Microscopy, Electron, Scanning"/>
+    <entities name="Immunophenotyping"/>
+    <entities name="Bone marrow biopsy"/>
+    <entities name="Magnetic Resonance Imaging"/>
+    <entities name="Cytogenetic procedure"/>
+    <entities name="Chromosomal analysis"/>
+    <entities name="Radionuclide Imaging"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>

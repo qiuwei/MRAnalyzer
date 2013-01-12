@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rcf:RelationalContextFamily xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:erca="http://code.google.com/erca/erca.ecore/1.5.0" xmlns:rcf="http://code.google.com/erca/erca.ecore/1.5.0#//rcf">
+  <relationalContexts name="CAUSES" targetContext="//@formalContexts.1" sourceContext="//@formalContexts.0">
+    <relation target="//@formalContexts.1/@entities.3" source="//@formalContexts.0/@entities.0"/>
+    <relation target="//@formalContexts.1/@entities.0" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.4" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.5" source="//@formalContexts.0/@entities.1"/>
+    <relation target="//@formalContexts.1/@entities.2" source="//@formalContexts.0/@entities.2"/>
+    <relation target="//@formalContexts.1/@entities.1" source="//@formalContexts.0/@entities.3"/>
+  </relationalContexts>
+  <formalContexts name="context1">
+    <entities name="Cessation of life"/>
+    <entities name="Myelofibrosis"/>
+    <entities name="Syndrome"/>
+    <entities name="Lymphopenia"/>
+  </formalContexts>
+  <formalContexts name="context2">
+    <relation target="//@formalContexts.1/@attributes.0" source="//@formalContexts.1/@entities.0"/>
+    <relation target="//@formalContexts.1/@attributes.1" source="//@formalContexts.1/@entities.1"/>
+    <relation target="//@formalContexts.1/@attributes.2" source="//@formalContexts.1/@entities.2"/>
+    <relation target="//@formalContexts.1/@attributes.3" source="//@formalContexts.1/@entities.3"/>
+    <relation target="//@formalContexts.1/@attributes.4" source="//@formalContexts.1/@entities.4"/>
+    <relation target="//@formalContexts.1/@attributes.5" source="//@formalContexts.1/@entities.5"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Platelet Factor 4"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :NR4A1 gene"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Myeloid Leukemia, Chronic"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Disease"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :Platelet-Derived Growth Factor"/>
+    <attributes xsi:type="erca:BinaryAttribute" name="name :beta-Thromboglobulin"/>
+    <entities name="Platelet Factor 4"/>
+    <entities name="NR4A1 gene"/>
+    <entities name="Myeloid Leukemia, Chronic"/>
+    <entities name="Disease"/>
+    <entities name="Platelet-Derived Growth Factor"/>
+    <entities name="beta-Thromboglobulin"/>
+  </formalContexts>
+</rcf:RelationalContextFamily>
