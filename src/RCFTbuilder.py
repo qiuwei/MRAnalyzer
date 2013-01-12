@@ -18,29 +18,53 @@ class RCFTbuilder:
         self.mrk = "x"
 
     def build(self, filename, relname, src):
-        tgt = "rel2" if src == "rel1" else "rel1"
         with open(filename) as xmlfile:
             rel = etree.parse(xmlfile)
-            root = rel.getroot()
-            print root.tag
-            print len(root)
-            r = rel.xpath("/relations/relation[@name=$rname]", rname=relname)
-            src_concept = set()
-            tgt_concept = set()
-            relation = defaultdict()
-            if r:
-                for c in r[0]:
-                    print c.tag, c.get(src),"=" ,c.get(tgt)
-                    srcrel = c.get(src)
-                    tgtrel = c.get(tgt)
-                    src_concept.add(srcrel)
-                    tgt_concept.add(tgtrel)
-                    relation[(srcrel, tgtrel)] = True
-                rcf = (list(src_concept), list(tgt_concept), relation)
-            for i in relation.values():
-                print i
-            outputfilename = relname.lower() + '.rcft'
-            self._write(rcf, relname, outputfilename)
+            self._build(rel, relname, src)
+
+    def _build(self, rel, relname, src):
+        tgt = "rel2" if src == "rel1" else "rel1"
+        root = rel.getroot()
+        print root.tag
+        print len(root)
+        r = rel.xpath("/relations/relation[@name=$rname]", rname=relname)
+        src_concept = set()
+        tgt_concept = set()
+        relation = defaultdict()
+        if r:
+            for c in r[0]:
+                print c.tag, c.get(src),"=" ,c.get(tgt)
+                srcrel = c.get(src)
+                tgtrel = c.get(tgt)
+                src_concept.add(srcrel)
+                tgt_concept.add(tgtrel)
+                relation[(srcrel, tgtrel)] = True
+            rcf = (list(src_concept), list(tgt_concept), relation)
+        for i in relation.values():
+            print i
+        des = os.path.join("rcft", relname.lower())
+        if not os.path.exists(des):
+            os.makedirs(des)
+        outputfilename = os.path.join(des, src + '.rcft')
+        self._write(rcf, relname, outputfilename)
+
+    def buildall(self, filename):
+        '''
+        build the rcft file for all of the relations
+        '''
+        def getrellist(rel):
+                root = rel.getroot()
+                for r in root:
+                    yield r.get('name')
+
+        with open(filename) as xmlfile:
+            rel = etree.parse(xmlfile)
+            for relname in getrellist(rel):
+                self._build(rel, relname, "rel1")
+                self._build(rel, relname, "rel2")
+
+            #self._build(rel, relname, src)
+
 
     def _write(self, rcf, relname, rcftfilename):
         '''
@@ -107,6 +131,7 @@ def main():
     args = parser.parse_args()
     rcftbuilder = RCFTbuilder()
     rcftbuilder.build(args.filename, args.relname, args.src)
+    rcftbuilder.buildall(args.filename)
 
 if __name__ == '__main__':
     main()

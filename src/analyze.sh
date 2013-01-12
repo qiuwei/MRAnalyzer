@@ -1,24 +1,10 @@
 #!/bin/sh
-###### options processing ######
-TEMP=`getopt -o Ai:h -n 'test_getopt.sh' -- "$@"`
 
-if [ $? != 0 ] ; then TEMP="-h --" ; fi
-eval set -- "$TEMP"
-while true ; do
-        case "$1" in
-           -A ) shift; OPT_A="-A" ;;
-           -i ) shift;  INPUT_FILE=$1; shift ;;
-           -h ) cat <<EOT
-Usage: $0 -i <input file> [-A]
-Options:
-  -A     print non-printable characters
-  -i     specify input file name
-  -h     this help
-EOT
-                shift; exit;;
-           --) shift ; break ;;
-        esac
+dirname=$1
+for filename in $(find $1 -name '*.rcft')
+do
+    java -jar erca.jar rcfhtml --rcft $filename ${filename%.rcft}.rcf.html
+    java -jar erca.jar clfbuild --rcft $filename ${filename%.rcft}.rcf.xmi ${filename%.rcft}.clf.xmi
+    java -jar erca.jar clfdot ${filename%.rcft}.clf.xmi ${filename%.rcft}.clf.dot 
+    dot -Tps ${filename%.rcft}.clf.dot -o ${filename%.rcft}.clf.ps
 done
-if [ -z "$INPUT_FILE" ]; then echo "Must specify -i <filename>"; $0 -h; exit 1; fi
-###### end of options processing ######
-cat $OPT_A $INPUT_FILE
